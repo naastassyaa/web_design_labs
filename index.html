@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400&family=Playfair+Display:wght@700&display=swap"
-          rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c7fbf1cc29.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../lab_1.3/styles/style.css">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400&family=Playfair+Display:wght@700&display=swap"
+            rel="stylesheet"
+    />
+    <script
+            src="https://kit.fontawesome.com/c7fbf1cc29.js"
+            crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/header.css"/>
+    <link rel="stylesheet" href="styles/footer.css"/>
+    <link rel="stylesheet" href="styles/animation.css"/>
     <title>Your Website</title>
 </head>
 <body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+
+<header class="header">
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
         </ul>
-        <img class="img-logo" src="../lab_1.3/images/logo.png" alt="circle"/>
+        <img class="img-logo" src="images/logo.png" alt="circle"/>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
         <div class="button-block">
-            <button class="button-header button-login" type="button">Login</button>
-            <button class="button-header button-register" type="button">Register</button>
+            <button class="button-header button-login" type="button">
+                Login
+            </button>
+            <button class="button-header button-register" type="button">
+                Register
+            </button>
         </div>
     </nav>
 </header>
@@ -31,65 +58,94 @@
     <section class="section1">
         <div class="section-text">
             <p class="header-text">Guides by Thousand Sunny</p>
-            <p class="main-text">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS
-                and Android) is the ultimate resource before and during a trip.</p>
+            <p class="main-text">
+                Packed with tips and advice from our on-the-ground experts, our city
+                guides app (iOS and Android) is the ultimate resource before and
+                during a trip.
+            </p>
             <button class="button-download">Download</button>
         </div>
         <div class="section1-image">
-            <img src="../lab_1.3/images/section1.png" alt="A man with a suitcase and a phone in his hands on the background of a large phone">
+            <img
+                    src="images/section1.png"
+                    alt="A man with a suitcase and a phone in his hands on the background of a large phone"
+            />
         </div>
     </section>
+
     <section class="section2">
         <div class="section-main">
             <div class="section2-text">
                 <p class="header2-text">Testimonials</p>
                 <div class="stars">
-                    <img src="../lab_1.3/images/star.png" alt="star">
-                    <img src="../lab_1.3/images/star.png" alt="star">
-                    <img src="../lab_1.3/images/star.png" alt="star">
-                    <img src="../lab_1.3/images/star.png" alt="star">
-                    <img src="../lab_1.3/images/star.png" alt="star">
+                    <img src="images/star.png" alt="star"/>
+                    <img src="images/star.png" alt="star"/>
+                    <img src="images/star.png" alt="star"/>
+                    <img src="images/star.png" alt="star"/>
+                    <img src="images/star.png" alt="star"/>
                 </div>
-                <p class="main2-text">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac
-                    scelerisque
-                    eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
+                <p class="main2-text">
+                    “Quisque in lacus a urna fermentum euismod. Integer mi nibh,
+                    dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit
+                    amet turpis nec”
+                </p>
                 <p class="header3-text">Edward Newgate</p>
                 <p class="small-text">Founder Circle</p>
             </div>
             <div class="section2-image">
-                <img src="../lab_1.3/images/section2.png" alt="A man with a camera in the mountain">
+                <img
+                        src="images/section2.png"
+                        alt="A man with a camera in the mountain"
+                />
             </div>
         </div>
     </section>
+
     <section class="section3">
         <p class="header4-text">Trending stories</p>
         <div class="section3-trending-stories">
             <div class="blog1">
-                <img src="../lab_1.3/images/blog1.png" alt="yogi">
-                <p class="image1-text">The many benefits of taking a healing holiday</p>
-                <p class="healing-text">‘Helaing holidays’ are on the rise tohelp maximise your health and
-                    happines...</p>
+                <img src="images/blog1.png" alt="yogi"/>
+                <p class="image1-text">
+                    The many benefits of taking a healing holiday
+                </p>
+                <p class="healing-text">
+                    ‘Helaing holidays’ are on the rise tohelp maximise your health and
+                    happines...
+                </p>
                 <a class="link">Read more</a>
             </div>
             <div class="blog1">
-                <img src="../lab_1.3/images/blog2.png" alt="food">
-                <p class="image1-text">The best Kyoto restaurant to try Japanese food</p>
-                <p class="healing-text">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to
-                    visit...</p>
+                <img src="images/blog2.png" alt="food"/>
+                <p class="image1-text">
+                    The best Kyoto restaurant to try Japanese food
+                </p>
+                <p class="healing-text">
+                    From tofu to teahouses, here’s our guide to Kyoto’s best
+                    restaurants to visit...
+                </p>
                 <a class="link">Read more</a>
             </div>
             <div class="blog1">
-                <img src="../lab_1.3/images/blog3.png" alt="building">
-                <p class="image1-text">Skip Chichen Itza and head to this remote Yucatan</p>
-                <p class="healing-text">It’s remote and challenging to get, but braving the jungle and exploring these
-                    ruins without the...</p>
+                <img src="images/blog3.png" alt="building"/>
+                <p class="image1-text">
+                    Skip Chichen Itza and head to this remote Yucatan
+                </p>
+                <p class="healing-text">
+                    It’s remote and challenging to get, but braving the jungle and
+                    exploring these ruins without the...
+                </p>
                 <a class="link">Read more</a>
             </div>
             <div class="blog1">
-                <img src="../lab_1.3/images/blog4.png" alt="surfer">
-                <p class="image1-text">Surf’s up at these beginner spots around the world</p>
-                <p class="healing-text">If learning to surf has in on your to- do list for a while, the good news is:
-                    it’s never too late...</p>
+                <img src="images/blog4.png" alt="surfer"/>
+                <p class="image1-text">
+                    Surf’s up at these beginner spots around the world
+                </p>
+                <p class="healing-text">
+                    If learning to surf has in on your to- do list for a while, the
+                    good news is: it’s never too late...
+                </p>
                 <a class="link">Read more</a>
             </div>
         </div>
@@ -99,7 +155,7 @@
     <div class="footer-main">
         <div class="footer-info">
             <div class="footer-logo">
-                <img src="../lab_1.3/images/logo.png" alt="Your Logo">
+                <img src="images/logo.png" alt="Your Logo"/>
             </div>
             <div class="footer-copyright">
                 &copy; 2020 Thousand Sunny. All rights reserved
@@ -115,5 +171,25 @@
         </div>
     </div>
 </footer>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+
+    const navLink = document.querySelectorAll(".nav-link");
+
+    navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+    function closeMenu() {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+    }
+</script>
 </body>
 </html>
